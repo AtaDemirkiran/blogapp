@@ -23,7 +23,7 @@
           @php
               $category = Category::find($blog->category_id);
           @endphp
-          <a href="{{ route('frontend.category.detail', ['slug' => $category->slug, 'id' => $category->id]) }}" class="btn btn-info">Diğer Bloglar</a>
+          <a href="{{ route('frontend.category.detail', ['slug' => $category->slug, 'id' => $category->id]) }}" class="btn btn-info">Benzer Bloglar</a>
           
         </div>
 
